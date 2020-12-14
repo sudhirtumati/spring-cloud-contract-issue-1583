@@ -12,7 +12,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
 @AutoConfigureMockMvc
-@AutoConfigureWireMock(port = 0, stubs = "classpath:/bb_wiremock")
+@AutoConfigureWireMock(port = 0, stubs = "classpath:/bb_wiremock/mappings")
 @TestPropertySource(properties = {
 		"bitbucket.baseUrl=http://localhost:${wiremock.server.port}"
 })
