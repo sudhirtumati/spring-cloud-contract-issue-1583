@@ -1,0 +1,17 @@
+{
+  "id" : "32b42df3-4281-37e3-a235-959a75e00997",
+  "request" : {
+    "url" : "/projects/APP1/repos/MOD1/pull-requests/9/activities?limit=500",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName" : "body-projects-APP1-repos-MOD1-pull-requests-9-activities-UniXI.json",
+    "headers" : {
+      "Content-Type" : "application/json",
+      "Date" : "Mon, 14 Dec 2020 11:07:16 GMT",
+      "Keep-Alive" : "timeout=60"
+    }
+  },
+  "uuid" : "32b42df3-4281-37e3-a235-959a75e00997"
+}
